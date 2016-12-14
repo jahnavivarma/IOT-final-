@@ -77,7 +77,6 @@ void loop() {
             else
                 digitalWrite(bars[i], LOW);
                 
-            //Play a tone on the speaker if the strength changes significantly (12.5% for a 10 segment graph)
             if(color != lastStrength)
                    
             lastStrength = color;
