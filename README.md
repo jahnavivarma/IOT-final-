@@ -1,3 +1,6 @@
+Internet of Things final project
+
+WiFi strength meter
 A device made with a bar graph and a Particle Photon to show the WiFi strength.
 
 Resources:
