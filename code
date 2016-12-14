@@ -1,7 +1,5 @@
 //The pins connected to the bar graph LCD in order from lowest to largest
 int bars [] = {D0, D1, D2, D3, D4, D5, D6, D7, A0, A1};
-//The pin the optional speaker is on
-int speakerPin = RX;
 
 void setup() {
 
@@ -81,7 +79,7 @@ void loop() {
                 
             //Play a tone on the speaker if the strength changes significantly (12.5% for a 10 segment graph)
             if(color != lastStrength)
-                 tone(speakerPin, 1908, 125);    
+                   
             lastStrength = color;
         }
     }
